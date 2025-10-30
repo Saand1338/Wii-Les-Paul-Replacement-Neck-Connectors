@@ -1,0 +1,107 @@
+(footprint "SAMESKY_CPG-01-TH-B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.425 -1.885 0)
+		(layer "F.SilkS")
+		(uuid "284b8272-e8ae-4b79-95ca-e3aff9302ec6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SAMESKY_CPG-01-TH-B"
+		(at 9.315 1.865 0)
+		(layer "F.Fab")
+		(uuid "132eb4f1-b32e-482d-a7ad-386bfbaa92a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1111daf8-4cf8-4f1a-a538-c4b6e1e7c4e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dae6e649-5608-4da4-abb8-87cac8a645ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9d22527-9dc2-4eef-bb4d-47cfcda5269e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0fc7ed09-6010-4572-a9fd-5151d4ce8ff1")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "18252890-44ea-4ecf-b4e6-f02cc1b96ab8")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.7 1.7)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "901bea3d-9680-4663-b188-7c777370e5eb")
+	)
+	(model "${KIPRJMOD}/shapes3D/CPG-01-TH-B.step"
+		(offset
+			(xyz 0 -23.15 -58.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
+)
